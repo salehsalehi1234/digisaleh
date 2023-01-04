@@ -1,0 +1,34 @@
+@media all and (max-width: 1020px){
+    .header-class{
+        display: block;
+    }
+    .header-class1{
+        display: none;
+    }
+}
+@media all and (min-width: 1021px){
+    .header-class{
+        display: none;
+    }
+    .header-class1{
+        display: block;
+    }
+}
+@font-face {
+    font-family: tanha;
+    src: url(./fonts/Tanha.woff) format("woff");
+}
+@font-face {
+    font-family: sahel;
+    src: url(./fonts/Sahel.woff) format("woff");
+}
+@font-face {
+    font-family: parastoo;
+    src: url(./fonts//Parastoo.woff) format("woff");
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    direction: rtl;
+    font-family: tanha, sahel, parastoo;
+}
